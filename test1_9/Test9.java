@@ -1,4 +1,4 @@
-package test9;
+package test1_9;
 class Test9 {
   public static void main(String[] args){
     // 変数nameに、好きな名前を代入してください
