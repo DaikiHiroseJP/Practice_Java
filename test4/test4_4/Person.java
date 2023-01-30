@@ -5,7 +5,7 @@ class Person {
 
   // コンストラクタを定義してください
   Person(){
-    System.out.println("インスタンスが生成されました");
+    System.out.println("インスタンスが生成されました.");
   }
 
   public void hello() {
