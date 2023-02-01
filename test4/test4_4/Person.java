@@ -9,6 +9,6 @@ class Person {
   }
 
   public void hello() {
-    System.out.println("こんにちは、私は" + this.name + "です");
+    System.out.println("こんにちは、私は" + this.name + "と申します");
   }
 }
