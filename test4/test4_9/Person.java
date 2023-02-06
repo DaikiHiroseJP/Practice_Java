@@ -26,7 +26,7 @@ class Person {
   // printDataメソッドを定義してください
   public void printData() {
     System.out.println("私の名前は" + this.fullName() + "です");
-    System.out.println("年齢は" + this.age + "歳です");
+    System.out.println("年齢は" + this.age + "歳です.");
     System.out.println("BMIは" + Math.round(this.bmi()) + "です");
   }
   
