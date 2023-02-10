@@ -4,7 +4,7 @@ class Main {
     person1.printData();
     
     // middleNameとして「Christopher」を渡してください
-    Person person2 = new Person("John", "Christopher", "Smith", 65, 1.75, 80.0);
+    Person person2 = new Person("Johns", "Christopher", "Smith", 65, 1.75, 80.0);
     person2.printData();
     
     Person.printCount();
