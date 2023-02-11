@@ -18,7 +18,7 @@ class Person {
   }
 
   public void printData() {
-    System.out.println("私の名前は" + this.fullName() + "です");
+    System.out.println("私の名前は" + this.fullName() + "です.");
     System.out.println("年齢は" + this.age + "歳です");
     System.out.println("BMIは" + Math.round(this.bmi()) + "です");
   }
@@ -31,5 +31,5 @@ class Person {
   public static void printCount() {
     System.out.println("合計" + Person.count + "人です");
   }
-  
+
 }
