@@ -22,7 +22,7 @@ class Person {
   
   // コンストラクタを書き換えてください
   Person(String firstName, String middleName, String lastName, int age, double height, double weight, String job) {
-    this(firstName, lastName, age, height, weight);
+    this(firstName, lastName, age, height, weight, job);
     this.middleName = middleName;
   }
 
@@ -32,7 +32,7 @@ class Person {
   
   // jobのゲッターを定義してください
   public String getJob() {
-    return this.getJob;
+    return this.job;
   }
 
 
