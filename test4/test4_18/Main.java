@@ -11,7 +11,7 @@ class Main {
     person1.setJob("獣医");
     
     // 「person1の仕事を◯◯に変更しました」と出力されるようにしてください
-    System.out.println("peron1の仕事を" + person1.getJob() + "に変更しました");
+    System.out.println("peron1の仕事を" + person1.getJob() + "に変更しました.");
     
     person1.printData();
   }
